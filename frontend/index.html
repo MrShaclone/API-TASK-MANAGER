@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <!--Adicionando o arquivo css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Titulo, um input de texto, e um botão-->
+    <div>
+        <h1 class="titulo">📝Lista de tarefas</h1>
+        <input class="campo-tarefa" type="text" placeholder="Digite uma nova tarefa">
+        <input class="descricao-tarefa" type="text" placeholder="Digite uma descrição">
+        
+        <select name="prioridade" class="prioridade">
+            <option value="" disabled selected>Prioridade</option>
+            <option value="Baixa">Baixa</option>
+            <option value="Média">Média</option>
+            <option value="Alta">Alta</option>
+        </select>
+
+        <select name="status" class="status">
+            <option value="" disabled selected>Status</option>
+            <option value="Pendente">Pendente</option>
+            <option value="Em andamento">Em andamento</option>
+            <option value="Concluída">Concluída</option>
+        </select>
+
+        <div class="grupo-data-tarefa">
+        <label for="data">Data de entrega:</label>
+        <input type="date" class="data-tarefa" id="data" name="data">
+         </div>
+
+        <button class="botao-adicionar">Adicionar Tarefa</button>
+    </div>
+
+
+    <!--Container com uma lista não ordenada e botão de remover-->
+    <div>
+        <ul class="lista-tarefas">
+           
+        </ul>
+        
+        <script src="scripts/script-integracao.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </div>
+</body>
+</html>

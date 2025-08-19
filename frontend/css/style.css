@@ -1,0 +1,117 @@
+.titulo{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+    background-color: #444;
+}
+.campo-tarefa{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+.descricao-tarefa{
+    width: 50%;
+    height: 80px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+
+
+.grupo-data-tarefa {
+    display: flex;
+    align-items: center;
+    margin-left: 344px;
+    margin-bottom: 30px;
+}
+
+.grupo-data-tarefa label {
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.data-tarefa{
+    width: 950px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+.botao-adicionar{
+    background: rgb(146, 248, 146);
+    color: black;
+    border-color: transparent;
+    border-radius: 5px;
+    height: 36px;
+    width: 150px;
+    margin-left: 47%;
+    cursor: pointer;
+}
+.botao-adicionar:hover{
+  background-color: rgb(103, 214, 103);
+}
+
+.lista-tarefas{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.item-tarefa{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: rgb(165, 165, 158);
+    padding: 10px;
+    padding-left: 20px;
+    margin-right: 100px;
+}
+.botao-remover{
+    background: rgb(255, 110, 110);
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    height: 26px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.botao-remover:hover{
+  background-color: rgb(219, 74, 74);
+}
+
+.botao-editar{
+    background: rgb(109, 96, 223);
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    height: 26px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.botao-editar:hover{
+  background-color: rgb(70, 58, 184);
+}
+
+.status{
+    width: 950px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 476px;
+    margin-bottom: 30px;
+}
+
+.prioridade{
+    width: 950px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 476px;
+    margin-bottom: 30px;
+}
